@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T21:17:36Z",
+    "created": "2026-01-30T21:36:37Z",
     "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
@@ -18,6 +18,14 @@
             "sha256": "bbab65579e5e5d0269842be7669106d984ff4ecc0ba80eb2f9cd4d5d294557dd"
         },
         {
+            "path": "./encrypted/backup-manifest.json",
+            "sha256": "fed15476d86b948ec52ad26d173fae2bc1bac8ed576fa3402e4fbb563f15deef"
+        },
+        {
+            "path": "./encrypted/encrypted-backup.json",
+            "sha256": "c3655ebc910368a3409eddeb5e655cc8148630b5d96b8f126dd6ec7c42b20068"
+        },
+        {
             "path": "./.gitignore",
             "sha256": "ad89104e2b79765eeb6e0a3e986ea25112c4667f2cae2bdf21fd8feed786fccb"
         },
@@ -27,7 +35,7 @@
         },
         {
             "path": "./README.md",
-            "sha256": "3ef41baa90a220053d3006dd1cd80903cba5a24021b81c0c1dd4bc25b6849c4b"
+            "sha256": "455871032b3e25e84c32d1fdf105e3d518cf57b8041a4fee4c7ae9b9ab137eba"
         },
         {
             "path": "./scripts/nostr/hive-routing-24h.sh",
@@ -88,13 +96,17 @@
         {
             "path": "./scripts/README.md",
             "sha256": "42827d53e6790fc3d6741e38b98807db63c71453433b2f941614752ca2e1bce0"
+        },
+        {
+            "path": "./SOUL.md",
+            "sha256": "4b4deccd437b1efb662e0a1591730791171a640a717060a6dc9c4528f656bef6"
         }
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T21:17:37.578Z",
+        "created": "2026-01-30T21:36:39.342Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "fJRrzp4Srb95w9hdL8loHkPXFrMvNDCcXRMIR5o3Sut5Cg9o3Ivm2Yykk4Xdqr6eP8DQMlr8T0PBejurgAMKfw"
+        "proofValue": "EjGTpMZdfDpXfL71WL-PHmuRu_d-O5FkjjUAcZSFHaEHn1xxTnjbSfsAVXpXPwPDnUtwTi7MfA8QGR8_8foDXA"
     }
 }

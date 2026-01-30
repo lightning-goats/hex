@@ -1,0 +1,33 @@
+{
+    "@context": "https://w3id.org/security/v2",
+    "type": "EncryptedSelfBackup",
+    "agent": "Hex",
+    "did": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
+    "created": "2026-01-30T21:36:17Z",
+    "description": "Encrypted backup of Hex's core memory and operational knowledge. Only decryptable by the agent's DID.",
+    "files": {
+        "MEMORY.md": {
+            "description": "Long-term memory - relationships, lessons, context",
+            "encrypted_did": "did:cid:bagaaiera3lidswh4ctrejqdogu6p7phesy35iipdfqav2w2xgdt3hfejk74q",
+            "public": false
+        },
+        "TOOLS.md": {
+            "description": "Operational knowledge - infrastructure, APIs, procedures",
+            "encrypted_did": "did:cid:bagaaieraxxjomc3ixlzhhxc53wibmkgsivbexhkjhbyiannsyggudwnaqgua",
+            "public": false
+        },
+        "memory/2026-01-30.md": {
+            "description": "Daily memory - today's events and context",
+            "encrypted_did": "did:cid:bagaaierazcd2pdzybthaeff2hobfknjxxb2l3rtrsjhaj67pqerdzuns6lma",
+            "public": false
+        }
+    },
+    "restore_instructions": "Use 'keymaster decrypt-did <did>' with the agent's wallet to restore each file.",
+    "proof": {
+        "type": "EcdsaSecp256k1Signature2019",
+        "created": "2026-01-30T21:36:37.702Z",
+        "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "dz-hC54osK0OYk7Qml4-r9lC0bXqrBzyNW09UiHlpAdIJgTKtwEy482Ed4agSZdMAbBidp1XmszhF3A_t5JIfg"
+    }
+}
