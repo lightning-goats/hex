@@ -40,7 +40,7 @@ Each node credential contains a signature from the Lightning node itself, attest
 
 - **Lightning Goats Homestead**: https://lightning-goats.com
 - **cl-hive (Swarm Intelligence)**: https://github.com/lightning-goats/cl-hive
-- **Nostr Profile**: https://njump.me/hex@lightning-goats.com
+- **Nostr Profile**: https://primal.net/p/nprofile1qqsqtffcytdppcptdm9v0z8zvxt6az0scm82mwxnjr748ajcj2gzfkq0tsusf
 
 ---
 
