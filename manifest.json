@@ -1,0 +1,100 @@
+{
+    "@context": "https://w3id.org/security/v2",
+    "type": "RepoManifest",
+    "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
+    "created": "2026-01-30T21:14:59Z",
+    "repository": "https://github.com/santyr/hex",
+    "files": [
+        {
+            "path": "./credentials/hive-nexus-01.json",
+            "sha256": "346cab409fa85fcda9e81c4637c1f92541991d0155c7e4a858bf164024da11d8"
+        },
+        {
+            "path": "./credentials/hive-nexus-02.json",
+            "sha256": "393240540b8bd0e6d7094245abba5d8f23960b661126acd2cc43c13cc335003c"
+        },
+        {
+            "path": "./credentials/README.md",
+            "sha256": "bbab65579e5e5d0269842be7669106d984ff4ecc0ba80eb2f9cd4d5d294557dd"
+        },
+        {
+            "path": "./hex-avatar.png",
+            "sha256": "1fcb348cb5b1cdac1ea2f24e2bd4a4a118cc7375163361362fdbb545212b212b"
+        },
+        {
+            "path": "./README.md",
+            "sha256": "3ef41baa90a220053d3006dd1cd80903cba5a24021b81c0c1dd4bc25b6849c4b"
+        },
+        {
+            "path": "./scripts/nostr/hive-routing-24h.sh",
+            "sha256": "9884a9e4058a6345e763df3a5df2811b35f7ea82e2ea6acf85f6ee6353af4e52"
+        },
+        {
+            "path": "./scripts/nostr/homestead-report.sh",
+            "sha256": "e6fba25d7359721ef41e8377837d2357c64aa6bfb9ac237acf6893ae57043a47"
+        },
+        {
+            "path": "./scripts/nostr/nostr-check-dms.sh",
+            "sha256": "9801395ea2fbb8ae2a9c2a547cbda16fa2772d8198f928175f133f2535b197ba"
+        },
+        {
+            "path": "./scripts/nostr/nostr-dm-bridge.sh",
+            "sha256": "1096a45430fde0cb43e7a6c5327f9ee3f514f5aded51e788cff5e2b0a5d1dfb2"
+        },
+        {
+            "path": "./scripts/nostr/nostr-dm.sh",
+            "sha256": "0e95163a94b8be9537323633a4e44496d9659e984caa8a614e9a30300cf0aeac"
+        },
+        {
+            "path": "./scripts/nostr/nostr-mentions-poll.sh",
+            "sha256": "7bb6b00016a6ff0792a46de722f73a1e9563f6fa170970a03de8786806c67115"
+        },
+        {
+            "path": "./scripts/nostr/nostr-mentions.sh",
+            "sha256": "93cf35517f2faab7ce4dfec5c7e8253cbf9a166732f4cc147141ddc218f5281d"
+        },
+        {
+            "path": "./scripts/nostr/nostr-post.sh",
+            "sha256": "2b44d5b73f1df7ddd46ece689978c1a8176fa1886241c92d1fce52302ac38bf1"
+        },
+        {
+            "path": "./scripts/nostr/nostr-profile.sh",
+            "sha256": "f23b994bd828b6a338245b13dda8a5c8700eb1c479359904c5050503bfdfd8ca"
+        },
+        {
+            "path": "./scripts/nostr/nostr-react.sh",
+            "sha256": "6afb2d2692e4774644b547e7df1c7ce2c522d5139b797c5dbcb8ce5d9f622117"
+        },
+        {
+            "path": "./scripts/nostr/nostr-reply.sh",
+            "sha256": "16c30cbc1cb2360db791215930c44fc76b657d844784410fd53189b6dfb3bb89"
+        },
+        {
+            "path": "./scripts/nostr/nostr-timeline.sh",
+            "sha256": "7de4706b0cef1c70a4779aad5623551d0717b4a89a981a1bf241aab0c8d1dc1d"
+        },
+        {
+            "path": "./scripts/nostr/nostr-upload.sh",
+            "sha256": "e242feea366b044533bc54d7b98af4e3fe9853c95b43f4e42b2f604d5c3e7b64"
+        },
+        {
+            "path": "./scripts/nostr/nostr-zap.sh",
+            "sha256": "ccdf83aa104b2bb55020d8426cf386124b76620b18dd1c552b777b616e86e3b3"
+        },
+        {
+            "path": "./scripts/README.md",
+            "sha256": "42827d53e6790fc3d6741e38b98807db63c71453433b2f941614752ca2e1bce0"
+        },
+        {
+            "path": "./wallet.json",
+            "sha256": "bf2b3295b4393f6810b3d577b8c5e83c29ac19cfc68a33f82339c323c5a52199"
+        }
+    ],
+    "proof": {
+        "type": "EcdsaSecp256k1Signature2019",
+        "created": "2026-01-30T21:15:00.506Z",
+        "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "sTnlfFlzTYneiA41ELaPpS8yanGzKelZyIKtcwQwj-BJ-9O4nTUrWll6V-HkQFlq72EYZOPad9HF9geE1tgWYw"
+    }
+}

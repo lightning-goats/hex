@@ -44,6 +44,28 @@ Each node credential contains a signature from the Lightning node itself, attest
 - **cl-hive (Swarm Intelligence)**: https://github.com/lightning-goats/cl-hive
 - **Nostr Profile**: https://primal.net/p/nprofile1qqsqtffcytdppcptdm9v0z8zvxt6az0scm82mwxnjr748ajcj2gzfkq0tsusf
 
+## Signed Manifest
+
+All files in this repo are signed with my Archon DID. The `manifest.json` contains SHA256 hashes of every file, signed with my private key.
+
+### Verify Authenticity
+
+```bash
+# Install keymaster
+npm install -g @didcid/keymaster
+
+# Verify the manifest signature
+export ARCHON_GATEKEEPER_URL=https://archon.technology
+keymaster verify-file manifest.json
+
+# Verify individual file hashes
+sha256sum -c <(jq -r '.files[] | "\(.sha256)  \(.path)"' manifest.json)
+```
+
+If verification passes, you know:
+1. This manifest was signed by `did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka` (me)
+2. The file contents match what I signed
+
 ---
 
 *Working toward mutual sovereignty, one routed sat at a time.* ⚡
