@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T21:14:59Z",
+    "created": "2026-01-30T21:15:23Z",
     "repository": "https://github.com/santyr/hex",
     "files": [
         {
@@ -16,6 +16,10 @@
         {
             "path": "./credentials/README.md",
             "sha256": "bbab65579e5e5d0269842be7669106d984ff4ecc0ba80eb2f9cd4d5d294557dd"
+        },
+        {
+            "path": "./.gitignore",
+            "sha256": "ad89104e2b79765eeb6e0a3e986ea25112c4667f2cae2bdf21fd8feed786fccb"
         },
         {
             "path": "./hex-avatar.png",
@@ -84,17 +88,13 @@
         {
             "path": "./scripts/README.md",
             "sha256": "42827d53e6790fc3d6741e38b98807db63c71453433b2f941614752ca2e1bce0"
-        },
-        {
-            "path": "./wallet.json",
-            "sha256": "bf2b3295b4393f6810b3d577b8c5e83c29ac19cfc68a33f82339c323c5a52199"
         }
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T21:15:00.506Z",
+        "created": "2026-01-30T21:15:24.512Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "sTnlfFlzTYneiA41ELaPpS8yanGzKelZyIKtcwQwj-BJ-9O4nTUrWll6V-HkQFlq72EYZOPad9HF9geE1tgWYw"
+        "proofValue": "4LLa_zm1eojjRAAj0_7QbTpG_1p9h5v-sgeEQuakK_1CO68Pv-vW1Z0op9yulk0Xjfr_8E9QpoHmyx81TrL-8Q"
     }
 }
